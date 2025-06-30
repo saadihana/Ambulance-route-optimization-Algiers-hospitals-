@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Form</title>
+    <link href="css/patient.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Enter Information</h2>
+    <form action="/process" method="post"> <!-- Specify the action attribute -->
+        
+        <label for="randomCoordinates">Generate Random Coordinates in Algiers:</label><br>
+        <button type="button" onclick="generateRandomCoordinates()">Generate</button>
+        <input type="text" id="randomCoordinates" name="randomCoordinates" readonly><br>
+        <script>
+function generateRandomCoordinates() {
+    // Algiers coordinates
+    var algiersLat = 36.7538;
+    var algiersLng = 3.0588;
+    
+    // Generate random coordinates within a certain range around Algiers
+    var latRange = 0.1; // Adjust as needed
+    var lngRange = 0.1; // Adjust as needed
+    
+    var randomLat = algiersLat + (Math.random() - 0.5) * latRange * 2;
+    var randomLng = algiersLng + (Math.random() - 0.5) * lngRange * 2;
+    
+    // Format the coordinates and display them
+    var randomCoordinates = randomLat.toFixed(4) + ', ' + randomLng.toFixed(4);
+    document.getElementById('randomCoordinates').value = randomCoordinates;
+}
+</script>
+         <label for="speciality">Select Speciality:</label><br>
+        <select id="speciality" name="speciality">
+            <option value="neonatalogie">neonatalogie</option>
+
+<option value="parodontologie">parodontologie</option>
+<option value="reeducation fonctionnelle">reeducation fonctionnelle</option>
+<option value="ophtalmologie">ophtalmologie</option>
+<option value="hepatologie">hepatologie</option>
+<option value="diabetologie">diabetologie</option>
+<option value="chirurgie thoracique">chirurgie thoracique</option>
+<option value="gastroenterologie">gastroenterologie</option>
+<option value="clinique chirurgicale e B e">clinique chirurgicale e B e</option>
+<option value="dermatologie et venereologie">dermatologie et venereologie</option>
+<option value="immunologie">immunologie</option>
+<option value="parasitologie et mycologie">parasitologie et mycologie</option>
+<option value="medecine legale">medecine legale</option>
+<option value="clinique chirurgicale e A e">clinique chirurgicale e A e</option>
+<option value="service neurologie">service neurologie</option>
+<option value="pathologie et chirurgie buccale">pathologie et chirurgie buccale</option>
+<option value="medecine nucleaire">medecine nucleaire</option>
+<option value="pediatrie">pediatrie</option>
+<option value="orthopedie traumatologie">orthopedie traumatologie</option>
+<option value="urgences medico-chirurgicales">urgences medico-chirurgicales</option>
+<option value="endocrinologie">endocrinologie</option>
+<option value="anesthesie reanimation">anesthesie reanimation</option>
+<option value="pneumologie">pneumologie</option>
+<option value="reanimation medicale">reanimation medicale</option>
+<option value="anatomie pathologique">anatomie pathologique</option>
+<option value="neurologie">neurologie</option>
+<option value="hemobiologie et centre de transfusion sanguine">hemobiologie et centre de transfusion sanguine</option>
+<option value="dermatologie pediatrique">dermatologie pediatrique</option>
+<option value="neurochirurgie">neurochirurgie</option>
+<option value="d'oto-rhyno-laryngologie">d'oto-rhyno-laryngologie</option>
+<option value="medecine interne">medecine interne</option>
+<option value="rhumatologie">rhumatologie</option>
+<option value="psychiatrie">psychiatrie</option>
+<option value="Radiologue">Radiologue</option>
+<option value="Physiologue">Physiologue</option>
+<option value="Parasitologue">Parasitologue</option>
+<option value="Nephrologue">Nephrologue</option>
+<option value="Histologue">Histologue</option>
+<option value="Cardiologue">Cardiologue</option>
+<option value="Microbiologue">Microbiologue</option>
+<option value="Chirurgie">Chirurgie</option>
+<option value="Pneumo-Allergologue">Pneumo-Allergologue</option>
+<option value="Reanimation">Reanimation</option>
+<option value="Pneumo-Phtisiologue">Pneumo-Phtisiologue</option>
+<option value="Oncologie medicale">Oncologie medicale</option>
+<option value="Oncologie chirurgicale">Oncologie chirurgicale</option>
+<option value="Soins de soutien">Soins de soutien</option>
+<option value="Oncologie radiologique">Oncologie radiologique</option>
+<option value="Maladies Infectieuses">Maladies Infectieuses</option>
+<option value="Neurologue">Neurologue</option>
+<option value="Neuro-Chirurgue">Neuro-Chirurgue</option>
+<option value="Neurophysiologue">Neurophysiologue</option>
+<option value="Gastrologie">Gastrologie</option>
+<option value="Chirurgie des Breles">Chirurgie des Breles</option>
+<option value="Chirurgie Orthopedique">Chirurgie Orthopedique</option>
+<option value="Orthopedie -A-">Orthopedie -A-</option>
+<option value="Orthopedie -B-">Orthopedie -B-</option>
+<option value="Medecine physique et reeducation fonctionnelle">Medecine physique et reeducation fonctionnelle</option>
+<option value="Rhumatologie">Rhumatologie</option>
+<option value="Chirurgie plastique">Chirurgie plastique</option>
+<option value="Urgences Radiologue">Urgences Radiologue</option>
+<option value="Urgences Medicaux Chirurgicales">Urgences Medicaux Chirurgicales</option>
+<option value="Generale Anesthesie - Reanimation">Generale Anesthesie - Reanimation</option>
+<option value="Reeducation et readaptation fonctionnelle">Reeducation et readaptation fonctionnelle</option>
+<option value="Chirurgie dentaire">Chirurgie dentaire</option>
+<option value="Gynecologie">Gynecologie</option>
+<option value="Medecine Interne">Medecine Interne</option>
+<option value="Anesthesie Reanimation">Anesthesie Reanimation</option>
+<option value="Service des urgences">Service des urgences</option>
+<option value="Soins hospitaliers">Soins hospitaliers</option>
+<option value="Services d'urgence">Services d'urgence</option>
+<option value="Chirurgie Plastique Et Reparatrice Pour Adultes">Chirurgie Plastique Et Reparatrice Pour Adultes</option>
+<option value="Chirurgie Plastique Et Reparatrice Pour Enfants">Chirurgie Plastique Et Reparatrice Pour Enfants</option>
+<option value="Urgences">Urgences</option>
+<option value="Psychiatrie">Psychiatrie</option>
+<option value="Cardiology">Cardiology</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="Oncology">Oncology</option>
+
+            <!-- Options here -->
+        </select><br>
+        
+        <label for="searchType">Select Search Type:</label><br>
+        <input type="radio" id="hillClimbing" name="searchType" value="hillClimbing">
+        <label for="hillClimbing">Hill Climbing</label><br>
+        
+        <input type="radio" id="bfs" name="searchType" value="bfs">
+        <label for="bfs">Breadth-First Search (BFS)</label><br>
+        
+        <input type="radio" id="aStar" name="searchType" value="aStar">
+        <label for="aStar">A* Search</label><br>
+        
+        <input type="radio" id="ucs" name="searchType" value="ucs">
+        <label for="ucs">Uniform Cost Search (UCS)</label><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        function generateRandom() {
+            // Generate a random number between 1 and 100
+            var randomNumber = Math.floor(Math.random() * 100) + 1;
+            // Set the generated number in the input field
+            document.getElementById("randomNumber").value = randomNumber;
+        }
+    </script>
+</body>
+</html>

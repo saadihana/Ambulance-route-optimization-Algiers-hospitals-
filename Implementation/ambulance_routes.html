@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_622f67ea066c470571a8e6e83372045d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_622f67ea066c470571a8e6e83372045d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_622f67ea066c470571a8e6e83372045d = L.map(
+                "map_622f67ea066c470571a8e6e83372045d",
+                {
+                    center: [36.75, 3.05],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9347e07ea99e2c1a51a60bc1c10fe516 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9347e07ea99e2c1a51a60bc1c10fe516.addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var marker_20396664890fdca7036b245a5e3b0afa = L.marker(
+                [36.76202550605904, 3.056338988357211],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_58d6143f26faf713f8e8ad131547ea5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20396664890fdca7036b245a5e3b0afa.setIcon(icon_58d6143f26faf713f8e8ad131547ea5c);
+        
+    
+        var popup_1813be656359c83870e5406f3c3db3d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e16bb6826fc1f4350b83c50d16e83a09 = $(`<div id="html_e16bb6826fc1f4350b83c50d16e83a09" style="width: 100.0%; height: 100.0%;">CHU Mustapha Pacha d'Alger</div>`)[0];
+                popup_1813be656359c83870e5406f3c3db3d0.setContent(html_e16bb6826fc1f4350b83c50d16e83a09);
+            
+        
+
+        marker_20396664890fdca7036b245a5e3b0afa.bindPopup(popup_1813be656359c83870e5406f3c3db3d0)
+        ;
+
+        
+    
+    
+            var marker_c688da45b8396a095d3e47531e4fa558 = L.marker(
+                [36.79493412764575, 3.0495627423292495],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_a730eb79df5e6c70be7a409060f733c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c688da45b8396a095d3e47531e4fa558.setIcon(icon_a730eb79df5e6c70be7a409060f733c0);
+        
+    
+        var popup_4742b77bf1ae34582f97336562f8004a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dda791a9cd98ccc4acb69158a550a7c = $(`<div id="html_8dda791a9cd98ccc4acb69158a550a7c" style="width: 100.0%; height: 100.0%;">CHU Lamine Debaghine de Bab El Oued (ex - Maillot)</div>`)[0];
+                popup_4742b77bf1ae34582f97336562f8004a.setContent(html_8dda791a9cd98ccc4acb69158a550a7c);
+            
+        
+
+        marker_c688da45b8396a095d3e47531e4fa558.bindPopup(popup_4742b77bf1ae34582f97336562f8004a)
+        ;
+
+        
+    
+    
+            var marker_312a5339b01f9832fcce66a5acebc2c4 = L.marker(
+                [36.736675274254004, 3.1057623595183768],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_4c8d2942c661e4c27078051ee833aa39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_312a5339b01f9832fcce66a5acebc2c4.setIcon(icon_4c8d2942c661e4c27078051ee833aa39);
+        
+    
+        var popup_8f8ed80a7ec82f00b6fa0e0ee684726a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_436a41d931526dc78b5f83e7a5b403dc = $(`<div id="html_436a41d931526dc78b5f83e7a5b403dc" style="width: 100.0%; height: 100.0%;">CHU Nafissa Hamoud de Hussein Dey (ex - Parnet)</div>`)[0];
+                popup_8f8ed80a7ec82f00b6fa0e0ee684726a.setContent(html_436a41d931526dc78b5f83e7a5b403dc);
+            
+        
+
+        marker_312a5339b01f9832fcce66a5acebc2c4.bindPopup(popup_8f8ed80a7ec82f00b6fa0e0ee684726a)
+        ;
+
+        
+    
+    
+            var marker_6dbda63a9b24926e692f1f7cd3abfe17 = L.marker(
+                [36.77840266694043, 2.9821742170495233],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_869793ff400035b230361c7b1ce3ed96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dbda63a9b24926e692f1f7cd3abfe17.setIcon(icon_869793ff400035b230361c7b1ce3ed96);
+        
+    
+        var popup_e6a9b573ddf78f623be84d030d2317a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61a7ca4d8040c3a15fbb6e690ae085bc = $(`<div id="html_61a7ca4d8040c3a15fbb6e690ae085bc" style="width: 100.0%; height: 100.0%;">CHU Issad Hassani de Beni Messous</div>`)[0];
+                popup_e6a9b573ddf78f623be84d030d2317a4.setContent(html_61a7ca4d8040c3a15fbb6e690ae085bc);
+            
+        
+
+        marker_6dbda63a9b24926e692f1f7cd3abfe17.bindPopup(popup_e6a9b573ddf78f623be84d030d2317a4)
+        ;
+
+        
+    
+    
+            var marker_9adc02a728bb465677dad86c37e9e634 = L.marker(
+                [36.66682836548595, 2.9427430676355346],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_955ffd06dca13bf9c7b41ebd51c0f6b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9adc02a728bb465677dad86c37e9e634.setIcon(icon_955ffd06dca13bf9c7b41ebd51c0f6b7);
+        
+    
+        var popup_16b8962902b7a75c581522e6a01b31ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1377d4e4212a210a4400cbe7796eb061 = $(`<div id="html_1377d4e4212a210a4400cbe7796eb061" style="width: 100.0%; height: 100.0%;">CHU Djillali Bounaema de Douera</div>`)[0];
+                popup_16b8962902b7a75c581522e6a01b31ba.setContent(html_1377d4e4212a210a4400cbe7796eb061);
+            
+        
+
+        marker_9adc02a728bb465677dad86c37e9e634.bindPopup(popup_16b8962902b7a75c581522e6a01b31ba)
+        ;
+
+        
+    
+    
+            var marker_b0640f68f0912eb332b930e80b46eaf8 = L.marker(
+                [36.76080368488759, 3.0542441456052276],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_f5556638c690e9a06774296b209972d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0640f68f0912eb332b930e80b46eaf8.setIcon(icon_f5556638c690e9a06774296b209972d1);
+        
+    
+        var popup_b52a89a4e9f9cacab3901f99d950eca2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_395808a847f0bea7158fb80e15f34bda = $(`<div id="html_395808a847f0bea7158fb80e15f34bda" style="width: 100.0%; height: 100.0%;">EHS en Oncologie Pierre et Marie Curie (CPMC)</div>`)[0];
+                popup_b52a89a4e9f9cacab3901f99d950eca2.setContent(html_395808a847f0bea7158fb80e15f34bda);
+            
+        
+
+        marker_b0640f68f0912eb332b930e80b46eaf8.bindPopup(popup_b52a89a4e9f9cacab3901f99d950eca2)
+        ;
+
+        
+    
+    
+            var marker_32d0ad68ceece702aae0f2f27e6900d9 = L.marker(
+                [36.76530090666471, 3.047691801847626],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_8c7a62c628e22bb782f2b6e3374c5c89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32d0ad68ceece702aae0f2f27e6900d9.setIcon(icon_8c7a62c628e22bb782f2b6e3374c5c89);
+        
+    
+        var popup_d1a2010cca1daa3dd5e72150da6329e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9a0763bf34ba3769920c7474befd217 = $(`<div id="html_e9a0763bf34ba3769920c7474befd217" style="width: 100.0%; height: 100.0%;">Clinique chirurgicale Debussy (annexe du CPMC)</div>`)[0];
+                popup_d1a2010cca1daa3dd5e72150da6329e1.setContent(html_e9a0763bf34ba3769920c7474befd217);
+            
+        
+
+        marker_32d0ad68ceece702aae0f2f27e6900d9.bindPopup(popup_d1a2010cca1daa3dd5e72150da6329e1)
+        ;
+
+        
+    
+    
+            var marker_1b767562f919739ed7d1b58921f7c99f = L.marker(
+                [36.67091035214355, 2.9525991629339257],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_88eb549e5a759e4c88962101a8a34075 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b767562f919739ed7d1b58921f7c99f.setIcon(icon_88eb549e5a759e4c88962101a8a34075);
+        
+    
+        var popup_01cbc1c2ccd6c9e58014fceef7d75ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28f8904c90296fa061abb1dc458fef66 = $(`<div id="html_28f8904c90296fa061abb1dc458fef66" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite de Douera</div>`)[0];
+                popup_01cbc1c2ccd6c9e58014fceef7d75ce8.setContent(html_28f8904c90296fa061abb1dc458fef66);
+            
+        
+
+        marker_1b767562f919739ed7d1b58921f7c99f.bindPopup(popup_01cbc1c2ccd6c9e58014fceef7d75ce8)
+        ;
+
+        
+    
+    
+            var marker_ec3a11a6a57c97180e6111c84b6f694d = L.marker(
+                [36.77267620017187, 3.0568079460286457],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_d3156ed7c398e59d61add2b8acb93309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec3a11a6a57c97180e6111c84b6f694d.setIcon(icon_d3156ed7c398e59d61add2b8acb93309);
+        
+    
+        var popup_1490180a30c85221bd95a1189c771081 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6185d10d90db7348b015956da8689776 = $(`<div id="html_6185d10d90db7348b015956da8689776" style="width: 100.0%; height: 100.0%;">EHS des brulus Pierre et Claudine Chaulet</div>`)[0];
+                popup_1490180a30c85221bd95a1189c771081.setContent(html_6185d10d90db7348b015956da8689776);
+            
+        
+
+        marker_ec3a11a6a57c97180e6111c84b6f694d.bindPopup(popup_1490180a30c85221bd95a1189c771081)
+        ;
+
+        
+    
+    
+            var marker_4cd9eea51ffae07639fed3f8a2e545b5 = L.marker(
+                [36.767863332880644, 3.001459613305552],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_bb9f7ccef35125f5325d20cf40683b81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cd9eea51ffae07639fed3f8a2e545b5.setIcon(icon_bb9f7ccef35125f5325d20cf40683b81);
+        
+    
+        var popup_672c27f8934c1e4ef7c3f202ffa6c629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06ff94493aad0c95ef38bfbaca08ff3f = $(`<div id="html_06ff94493aad0c95ef38bfbaca08ff3f" style="width: 100.0%; height: 100.0%;">EHS Maouche Mohand Amokrane (ex-CNMS) Specialite : Cardiologie</div>`)[0];
+                popup_672c27f8934c1e4ef7c3f202ffa6c629.setContent(html_06ff94493aad0c95ef38bfbaca08ff3f);
+            
+        
+
+        marker_4cd9eea51ffae07639fed3f8a2e545b5.bindPopup(popup_672c27f8934c1e4ef7c3f202ffa6c629)
+        ;
+
+        
+    
+    
+            var marker_c15dd04d61b69f2204387e8710237dd5 = L.marker(
+                [36.73661901830541, 3.053271387701236],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_2c771f9ed143cc5e003bd0041cbcdf22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c15dd04d61b69f2204387e8710237dd5.setIcon(icon_2c771f9ed143cc5e003bd0041cbcdf22);
+        
+    
+        var popup_71e89fe07b2b9f7926de40993853cfb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad1f94270c3bf5fec59c48efef968230 = $(`<div id="html_ad1f94270c3bf5fec59c48efef968230" style="width: 100.0%; height: 100.0%;">EHS Mohamed Abderrahmani en chirurgie cardiovasculaire</div>`)[0];
+                popup_71e89fe07b2b9f7926de40993853cfb5.setContent(html_ad1f94270c3bf5fec59c48efef968230);
+            
+        
+
+        marker_c15dd04d61b69f2204387e8710237dd5.bindPopup(popup_71e89fe07b2b9f7926de40993853cfb5)
+        ;
+
+        
+    
+    
+            var marker_d842f8d712522c95de46e27e3d116982 = L.marker(
+                [36.72199644439113, 3.1477551877739764],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_d49f40b9cb1ee8b44db9f75ff620ed3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d842f8d712522c95de46e27e3d116982.setIcon(icon_d49f40b9cb1ee8b44db9f75ff620ed3d);
+        
+    
+        var popup_107013bf3ff67f4216f9527d998cc71a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7caeac5502e38ce6e29475d39f33ddb = $(`<div id="html_c7caeac5502e38ce6e29475d39f33ddb" style="width: 100.0%; height: 100.0%;">EHS Mere - enfant Hassen Badi - (ex-Belfort)</div>`)[0];
+                popup_107013bf3ff67f4216f9527d998cc71a.setContent(html_c7caeac5502e38ce6e29475d39f33ddb);
+            
+        
+
+        marker_d842f8d712522c95de46e27e3d116982.bindPopup(popup_107013bf3ff67f4216f9527d998cc71a)
+        ;
+
+        
+    
+    
+            var marker_8f4f1ad84921e8b4be6b8d6d2e53067a = L.marker(
+                [36.709400522721715, 3.120935518494314],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_7771ff9dd538a02e5a06e6c00854fa7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f4f1ad84921e8b4be6b8d6d2e53067a.setIcon(icon_7771ff9dd538a02e5a06e6c00854fa7b);
+        
+    
+        var popup_9432ab86cb8245d4f5c1693dac70a1d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b06efcf1c9340bc8fae8e960053a371b = $(`<div id="html_b06efcf1c9340bc8fae8e960053a371b" style="width: 100.0%; height: 100.0%;">EHS Hopital des Urgences Medico-Chirurgicales Salim ZEMIRLI EPA</div>`)[0];
+                popup_9432ab86cb8245d4f5c1693dac70a1d0.setContent(html_b06efcf1c9340bc8fae8e960053a371b);
+            
+        
+
+        marker_8f4f1ad84921e8b4be6b8d6d2e53067a.bindPopup(popup_9432ab86cb8245d4f5c1693dac70a1d0)
+        ;
+
+        
+    
+    
+            var marker_1805cb47f1a7f5fadf788988ddb12dd9 = L.marker(
+                [36.73917036611551, 3.0853057152018963],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_4ecc5f7b16a06951ade2b8bef4dad505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1805cb47f1a7f5fadf788988ddb12dd9.setIcon(icon_4ecc5f7b16a06951ade2b8bef4dad505);
+        
+    
+        var popup_187165e2c124559ab0d541e22c8f46a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7eb2d22cad41f23393d5e4d51bf8034 = $(`<div id="html_d7eb2d22cad41f23393d5e4d51bf8034" style="width: 100.0%; height: 100.0%;">EHS - Hopital Psychiatrique Drid Hocine</div>`)[0];
+                popup_187165e2c124559ab0d541e22c8f46a1.setContent(html_d7eb2d22cad41f23393d5e4d51bf8034);
+            
+        
+
+        marker_1805cb47f1a7f5fadf788988ddb12dd9.bindPopup(popup_187165e2c124559ab0d541e22c8f46a1)
+        ;
+
+        
+    
+    
+            var marker_a76a19f7b99beb2821460b2d2520e359 = L.marker(
+                [36.766447656643855, 2.9552944423292495],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_b2ff19b0ca70718bd24e9fcb2b201cc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a76a19f7b99beb2821460b2d2520e359.setIcon(icon_b2ff19b0ca70718bd24e9fcb2b201cc7);
+        
+    
+        var popup_adb86eeb34d259ca5aa3fd5fb4bf3fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_402760a4bd5b8bf85cb827b9a21a00e0 = $(`<div id="html_402760a4bd5b8bf85cb827b9a21a00e0" style="width: 100.0%; height: 100.0%;">EHS - Hopital Psychiatrique Mahfoud Boucebci</div>`)[0];
+                popup_adb86eeb34d259ca5aa3fd5fb4bf3fe3.setContent(html_402760a4bd5b8bf85cb827b9a21a00e0);
+            
+        
+
+        marker_a76a19f7b99beb2821460b2d2520e359.bindPopup(popup_adb86eeb34d259ca5aa3fd5fb4bf3fe3)
+        ;
+
+        
+    
+    
+            var marker_7b820916caa2e5a0f4558b4fa900c58d = L.marker(
+                [36.73576662358241, 2.8453536171115394],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_7fd4c1c4e7e16beb85c6ccf9c15efd49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b820916caa2e5a0f4558b4fa900c58d.setIcon(icon_7fd4c1c4e7e16beb85c6ccf9c15efd49);
+        
+    
+        var popup_890c9eb33cd8a11179fe18f64b28ea11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fff0889814ce7e781e010d13b468e27 = $(`<div id="html_8fff0889814ce7e781e010d13b468e27" style="width: 100.0%; height: 100.0%;">EHS en MPR (Reeducation fonctionnelle) - Azur Plage</div>`)[0];
+                popup_890c9eb33cd8a11179fe18f64b28ea11.setContent(html_8fff0889814ce7e781e010d13b468e27);
+            
+        
+
+        marker_7b820916caa2e5a0f4558b4fa900c58d.bindPopup(popup_890c9eb33cd8a11179fe18f64b28ea11)
+        ;
+
+        
+    
+    
+            var marker_08f2ebde654566076c2966ff6f6e935f = L.marker(
+                [36.75469085275399, 3.001101267622272],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_28b56b0e72c4baec30e2abdfaa6c4a93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08f2ebde654566076c2966ff6f6e935f.setIcon(icon_28b56b0e72c4baec30e2abdfaa6c4a93);
+        
+    
+        var popup_71127062f39de1d3ee201b4943efd8a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_746e04b0b2a465251797bca139ec7814 = $(`<div id="html_746e04b0b2a465251797bca139ec7814" style="width: 100.0%; height: 100.0%;">EHS Pr Abdelkader Boukhroufa</div>`)[0];
+                popup_71127062f39de1d3ee201b4943efd8a8.setContent(html_746e04b0b2a465251797bca139ec7814);
+            
+        
+
+        marker_08f2ebde654566076c2966ff6f6e935f.bindPopup(popup_71127062f39de1d3ee201b4943efd8a8)
+        ;
+
+        
+    
+    
+            var marker_703c63068660587b49139614bf037718 = L.marker(
+                [36.72528868631248, 3.0205487539967493],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_777e58afa48a2cc504f104d0d423d206 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_703c63068660587b49139614bf037718.setIcon(icon_777e58afa48a2cc504f104d0d423d206);
+        
+    
+        var popup_4b6cfc0dd081daf97e123f5c7567a63c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e9f3a1ea71a81d7c953f2992730d259 = $(`<div id="html_5e9f3a1ea71a81d7c953f2992730d259" style="width: 100.0%; height: 100.0%;">EHS/ MPR (Reeducation fonctionnelle)Tixeraene</div>`)[0];
+                popup_4b6cfc0dd081daf97e123f5c7567a63c.setContent(html_5e9f3a1ea71a81d7c953f2992730d259);
+            
+        
+
+        marker_703c63068660587b49139614bf037718.bindPopup(popup_4b6cfc0dd081daf97e123f5c7567a63c)
+        ;
+
+        
+    
+    
+            var marker_4079a8c49a39ba9de7d308dd4376bb6f = L.marker(
+                [36.7857207845617, 3.052063709211112],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_c62a285dfdcd3e4addb53c0592e281cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4079a8c49a39ba9de7d308dd4376bb6f.setIcon(icon_c62a285dfdcd3e4addb53c0592e281cf);
+        
+    
+        var popup_c81afe9b2a36def587119624e9e5bdb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbbfa7636125c0ffdcf3a29ce1b02720 = $(`<div id="html_fbbfa7636125c0ffdcf3a29ce1b02720" style="width: 100.0%; height: 100.0%;">EHS en Infectiologie El Hadi Flici (ex El Kettar)</div>`)[0];
+                popup_c81afe9b2a36def587119624e9e5bdb0.setContent(html_fbbfa7636125c0ffdcf3a29ce1b02720);
+            
+        
+
+        marker_4079a8c49a39ba9de7d308dd4376bb6f.bindPopup(popup_c81afe9b2a36def587119624e9e5bdb0)
+        ;
+
+        
+    
+    
+            var marker_a6f7bc70751db6ef9d57b17ec7013429 = L.marker(
+                [36.787499761598944, 3.05814624232925],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_38560d075c585bfc6b4530d6782de847 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6f7bc70751db6ef9d57b17ec7013429.setIcon(icon_38560d075c585bfc6b4530d6782de847);
+        
+    
+        var popup_2f9661a9083d061a98a385be52966158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9554e98cce47eb6bd90ccea585a01d9 = $(`<div id="html_a9554e98cce47eb6bd90ccea585a01d9" style="width: 100.0%; height: 100.0%;">EHS en Neurologie Ali Aet Idir</div>`)[0];
+                popup_2f9661a9083d061a98a385be52966158.setContent(html_a9554e98cce47eb6bd90ccea585a01d9);
+            
+        
+
+        marker_a6f7bc70751db6ef9d57b17ec7013429.bindPopup(popup_2f9661a9083d061a98a385be52966158)
+        ;
+
+        
+    
+    
+            var marker_2e766316727e5eb554594239b5e19b51 = L.marker(
+                [36.75513524736968, 3.0419556171891275],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_8fcc43147bc06679bc813bf040064317 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e766316727e5eb554594239b5e19b51.setIcon(icon_8fcc43147bc06679bc813bf040064317);
+        
+    
+        var popup_3acb4180d1dbdc47c31236266402a020 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_568497fbe085e2963c9a044fa37240f4 = $(`<div id="html_568497fbe085e2963c9a044fa37240f4" style="width: 100.0%; height: 100.0%;">EHS Gastrologie Djillali Rahmouni (ex-Clinique les Orangers)</div>`)[0];
+                popup_3acb4180d1dbdc47c31236266402a020.setContent(html_568497fbe085e2963c9a044fa37240f4);
+            
+        
+
+        marker_2e766316727e5eb554594239b5e19b51.bindPopup(popup_3acb4180d1dbdc47c31236266402a020)
+        ;
+
+        
+    
+    
+            var marker_faeb994ff601c44c43b9460cfd9853a0 = L.marker(
+                [36.726269090213314, 3.0870928478721287],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_c708078230082fba37a10c8b89daf25e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_faeb994ff601c44c43b9460cfd9853a0.setIcon(icon_c708078230082fba37a10c8b89daf25e);
+        
+    
+        var popup_815f1796a91e0dfbc3924f5a2f2c5dd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cead2c913675afdf84c101d31d91acb9 = $(`<div id="html_cead2c913675afdf84c101d31d91acb9" style="width: 100.0%; height: 100.0%;">EPH Bachir Mentouri</div>`)[0];
+                popup_815f1796a91e0dfbc3924f5a2f2c5dd2.setContent(html_cead2c913675afdf84c101d31d91acb9);
+            
+        
+
+        marker_faeb994ff601c44c43b9460cfd9853a0.bindPopup(popup_815f1796a91e0dfbc3924f5a2f2c5dd2)
+        ;
+
+        
+    
+    
+            var marker_20e9c3a0c00c3b62691ac02c78f4cf8f = L.marker(
+                [36.77657869677934, 3.0409917295620263],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_8f16e18c82be97f78829a3eca467b753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20e9c3a0c00c3b62691ac02c78f4cf8f.setIcon(icon_8f16e18c82be97f78829a3eca467b753);
+        
+    
+        var popup_44a71ca8554b348e22d8085502af121c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f3eea0eba167ecd3aba6b29548eb5e2 = $(`<div id="html_5f3eea0eba167ecd3aba6b29548eb5e2" style="width: 100.0%; height: 100.0%;">EPH Djillali Belkhenchir</div>`)[0];
+                popup_44a71ca8554b348e22d8085502af121c.setContent(html_5f3eea0eba167ecd3aba6b29548eb5e2);
+            
+        
+
+        marker_20e9c3a0c00c3b62691ac02c78f4cf8f.bindPopup(popup_44a71ca8554b348e22d8085502af121c)
+        ;
+
+        
+    
+    
+            var marker_6892c982ad05b11ab8f7710b7105fc10 = L.marker(
+                [36.70580083800539, 2.8458142729213995],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_a7df4e6d070916574fc42077f9fc7d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6892c982ad05b11ab8f7710b7105fc10.setIcon(icon_a7df4e6d070916574fc42077f9fc7d38);
+        
+    
+        var popup_150a72da0c8b19197023f49c91a8f98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d35a4e3b2d8c43b9bb4268c25c8dd802 = $(`<div id="html_d35a4e3b2d8c43b9bb4268c25c8dd802" style="width: 100.0%; height: 100.0%;">EPH Belkacemi Tayeb</div>`)[0];
+                popup_150a72da0c8b19197023f49c91a8f98f.setContent(html_d35a4e3b2d8c43b9bb4268c25c8dd802);
+            
+        
+
+        marker_6892c982ad05b11ab8f7710b7105fc10.bindPopup(popup_150a72da0c8b19197023f49c91a8f98f)
+        ;
+
+        
+    
+    
+            var marker_600c18b406c03fd5506aed79c1f389c7 = L.marker(
+                [36.73533705438, 3.2858348441768754],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_baefe46d8fb46ef853c89e5fb1fd55f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_600c18b406c03fd5506aed79c1f389c7.setIcon(icon_baefe46d8fb46ef853c89e5fb1fd55f9);
+        
+    
+        var popup_f224805dd59191f004d535e01a65d14c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87f450314d653904a48acf15026dbb15 = $(`<div id="html_87f450314d653904a48acf15026dbb15" style="width: 100.0%; height: 100.0%;">EPH de Rouiba</div>`)[0];
+                popup_f224805dd59191f004d535e01a65d14c.setContent(html_87f450314d653904a48acf15026dbb15);
+            
+        
+
+        marker_600c18b406c03fd5506aed79c1f389c7.bindPopup(popup_f224805dd59191f004d535e01a65d14c)
+        ;
+
+        
+    
+    
+            var marker_bd645374b47f7d416be2e0711206d542 = L.marker(
+                [36.81641984642462, 2.980246381993367],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_1b0d2abcac5c90dca87c816e46950276 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd645374b47f7d416be2e0711206d542.setIcon(icon_1b0d2abcac5c90dca87c816e46950276);
+        
+    
+        var popup_1e0aaa43986b69670e76dc986a909912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0272cd0539ad0285f6957e5340d0387e = $(`<div id="html_0272cd0539ad0285f6957e5340d0387e" style="width: 100.0%; height: 100.0%;">EPH - etablissement Public Hospitalier Ibn Ziri</div>`)[0];
+                popup_1e0aaa43986b69670e76dc986a909912.setContent(html_0272cd0539ad0285f6957e5340d0387e);
+            
+        
+
+        marker_bd645374b47f7d416be2e0711206d542.bindPopup(popup_1e0aaa43986b69670e76dc986a909912)
+        ;
+
+        
+    
+    
+            var marker_865cbc4072c10f7e8b6a8ce61647fef1 = L.marker(
+                [36.78921789556811, 3.2946943730122507],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_25b0798a0aad4385a8a23a86fc0e194d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_865cbc4072c10f7e8b6a8ce61647fef1.setIcon(icon_25b0798a0aad4385a8a23a86fc0e194d);
+        
+    
+        var popup_29d64b23bb80c2dee2d4acc5e274b7f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d19833f6a1c0bf7e35fe9499127f07b = $(`<div id="html_1d19833f6a1c0bf7e35fe9499127f07b" style="width: 100.0%; height: 100.0%;">Etablissement Public Hospitalier de Ain Taya</div>`)[0];
+                popup_29d64b23bb80c2dee2d4acc5e274b7f8.setContent(html_1d19833f6a1c0bf7e35fe9499127f07b);
+            
+        
+
+        marker_865cbc4072c10f7e8b6a8ce61647fef1.bindPopup(popup_29d64b23bb80c2dee2d4acc5e274b7f8)
+        ;
+
+        
+    
+    
+            var marker_8d5cd05ae424f6d05506dc5a08307948 = L.marker(
+                [36.69787355685087, 2.8444583828108723],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_4dc90c76f713f37919b4127c2ae8031d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d5cd05ae424f6d05506dc5a08307948.setIcon(icon_4dc90c76f713f37919b4127c2ae8031d);
+        
+    
+        var popup_c71cbd8b149b160ecd93f16b84a735e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67580271fb0aba83b12c997e8f30aa32 = $(`<div id="html_67580271fb0aba83b12c997e8f30aa32" style="width: 100.0%; height: 100.0%;">L'hopital des grands brules de Zeralda</div>`)[0];
+                popup_c71cbd8b149b160ecd93f16b84a735e0.setContent(html_67580271fb0aba83b12c997e8f30aa32);
+            
+        
+
+        marker_8d5cd05ae424f6d05506dc5a08307948.bindPopup(popup_c71cbd8b149b160ecd93f16b84a735e0)
+        ;
+
+        
+    
+    
+            var marker_f0d18777928d2065becbdbb725f2ca9c = L.marker(
+                [36.71584669836232, 2.843067695833074],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_d24bc2df09e697d2d6613aed55033816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0d18777928d2065becbdbb725f2ca9c.setIcon(icon_d24bc2df09e697d2d6613aed55033816);
+        
+    
+        var popup_444b84b08de5b341a3d7dab542febc3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36b34c632cb31dde3298f7de3bbfd1af = $(`<div id="html_36b34c632cb31dde3298f7de3bbfd1af" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite ZERALDA</div>`)[0];
+                popup_444b84b08de5b341a3d7dab542febc3e.setContent(html_36b34c632cb31dde3298f7de3bbfd1af);
+            
+        
+
+        marker_f0d18777928d2065becbdbb725f2ca9c.bindPopup(popup_444b84b08de5b341a3d7dab542febc3e)
+        ;
+
+        
+    
+    
+            var marker_b5a9b4654ffc2986e62acda1a9f635b4 = L.marker(
+                [36.77959824147116, 3.362387701482595],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_2a58128d4268fd3f6731698ef9a90339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5a9b4654ffc2986e62acda1a9f635b4.setIcon(icon_2a58128d4268fd3f6731698ef9a90339);
+        
+    
+        var popup_82f5a5ad7a6c1472548c91ef11370ed9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f9b4d7a67f812a9d2a3d238b34d7e2b = $(`<div id="html_5f9b4d7a67f812a9d2a3d238b34d7e2b" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite REGHAIA</div>`)[0];
+                popup_82f5a5ad7a6c1472548c91ef11370ed9.setContent(html_5f9b4d7a67f812a9d2a3d238b34d7e2b);
+            
+        
+
+        marker_b5a9b4654ffc2986e62acda1a9f635b4.bindPopup(popup_82f5a5ad7a6c1472548c91ef11370ed9)
+        ;
+
+        
+    
+    
+            var marker_3c4177af6f231919aaab85339ee955b7 = L.marker(
+                [36.734058741339126, 3.0611706454681578],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_610530898fa9a0a9bd03e7a1e8be997d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c4177af6f231919aaab85339ee955b7.setIcon(icon_610530898fa9a0a9bd03e7a1e8be997d);
+        
+    
+        var popup_6fea71293a6e43ff1509f1629ef16e5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e154c9e6cdf21485dbc2812e4cc02a34 = $(`<div id="html_e154c9e6cdf21485dbc2812e4cc02a34" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite KOUBA (LES ANNASSER)</div>`)[0];
+                popup_6fea71293a6e43ff1509f1629ef16e5a.setContent(html_e154c9e6cdf21485dbc2812e4cc02a34);
+            
+        
+
+        marker_3c4177af6f231919aaab85339ee955b7.bindPopup(popup_6fea71293a6e43ff1509f1629ef16e5a)
+        ;
+
+        
+    
+    
+            var marker_f7390f745761350d9be3d0ce8ccd3bbc = L.marker(
+                [36.74408083827578, 2.9133863728726475],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_a47821c4f0782f142d203364744173bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7390f745761350d9be3d0ce8ccd3bbc.setIcon(icon_a47821c4f0782f142d203364744173bb);
+        
+    
+        var popup_c602ba497d16ff27481ee57f1b0b1543 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aecaad550d7cdf71d2c4d9a1f38e756 = $(`<div id="html_7aecaad550d7cdf71d2c4d9a1f38e756" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite CHERAGA ( BOUCHAOUI)</div>`)[0];
+                popup_c602ba497d16ff27481ee57f1b0b1543.setContent(html_7aecaad550d7cdf71d2c4d9a1f38e756);
+            
+        
+
+        marker_f7390f745761350d9be3d0ce8ccd3bbc.bindPopup(popup_c602ba497d16ff27481ee57f1b0b1543)
+        ;
+
+        
+    
+    
+            var marker_9ad6494a707a379c975a9cd6a1bf4475 = L.marker(
+                [36.79387823442046, 3.0185775091927067],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_950a7bfb31226a2b8c52315932f01a16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ad6494a707a379c975a9cd6a1bf4475.setIcon(icon_950a7bfb31226a2b8c52315932f01a16);
+        
+    
+        var popup_347a15ad595f9d6fb8ffc5db0ac90171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f67956e4523785afe3e12ac5a446357f = $(`<div id="html_f67956e4523785afe3e12ac5a446357f" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite BOUZAREAH</div>`)[0];
+                popup_347a15ad595f9d6fb8ffc5db0ac90171.setContent(html_f67956e4523785afe3e12ac5a446357f);
+            
+        
+
+        marker_9ad6494a707a379c975a9cd6a1bf4475.bindPopup(popup_347a15ad595f9d6fb8ffc5db0ac90171)
+        ;
+
+        
+    
+    
+            var marker_d5a59cad0cfbba50740f00daba2efa1e = L.marker(
+                [36.793328369914924, 3.2613066807220674],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_aadd6bd613e2da936aea7029a6dd78c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5a59cad0cfbba50740f00daba2efa1e.setIcon(icon_aadd6bd613e2da936aea7029a6dd78c9);
+        
+    
+        var popup_87812de574e2bd2b52e7eea5a835c799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db017b7a5cbb99a5ec511b1e8ac65962 = $(`<div id="html_db017b7a5cbb99a5ec511b1e8ac65962" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite BORDJ EL KIFFAN (DERGANA)</div>`)[0];
+                popup_87812de574e2bd2b52e7eea5a835c799.setContent(html_db017b7a5cbb99a5ec511b1e8ac65962);
+            
+        
+
+        marker_d5a59cad0cfbba50740f00daba2efa1e.bindPopup(popup_87812de574e2bd2b52e7eea5a835c799)
+        ;
+
+        
+    
+    
+            var marker_dcbc56b09ba73190ddf61167e88cce9b = L.marker(
+                [36.653700387642125, 3.0905215288353753],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_86255662ebe232ef42308c6a15bd5b62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcbc56b09ba73190ddf61167e88cce9b.setIcon(icon_86255662ebe232ef42308c6a15bd5b62);
+        
+    
+        var popup_eee7b4fab34f047eb54cc08809610417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d83e2799fc27f7b35b59004f601f4908 = $(`<div id="html_d83e2799fc27f7b35b59004f601f4908" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite BARAKI</div>`)[0];
+                popup_eee7b4fab34f047eb54cc08809610417.setContent(html_d83e2799fc27f7b35b59004f601f4908);
+            
+        
+
+        marker_dcbc56b09ba73190ddf61167e88cce9b.bindPopup(popup_eee7b4fab34f047eb54cc08809610417)
+        ;
+
+        
+    
+    
+            var marker_59da1c7f6d632741f21d91fcd316e516 = L.marker(
+                [36.78923069967209, 3.049408272792376],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_a1d29fea972ca7b62cb6c541350fe85e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59da1c7f6d632741f21d91fcd316e516.setIcon(icon_a1d29fea972ca7b62cb6c541350fe85e);
+        
+    
+        var popup_a73b69a47afa6d89c14f64965803139a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b290dfab437b84c734e7d5ee78f6dfc = $(`<div id="html_8b290dfab437b84c734e7d5ee78f6dfc" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite BAB EL OUED</div>`)[0];
+                popup_a73b69a47afa6d89c14f64965803139a.setContent(html_8b290dfab437b84c734e7d5ee78f6dfc);
+            
+        
+
+        marker_59da1c7f6d632741f21d91fcd316e516.bindPopup(popup_a73b69a47afa6d89c14f64965803139a)
+        ;
+
+        
+    
+    
+            var marker_ac286e0596b158b1036fbb5ead6e3b49 = L.marker(
+                [36.74212419997733, 3.0867501918134392],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_c818a8c0cfa0f97a5c4dcca7231b178b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac286e0596b158b1036fbb5ead6e3b49.setIcon(icon_c818a8c0cfa0f97a5c4dcca7231b178b);
+        
+    
+        var popup_873c17822059b9ea31993cc679a2a413 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c48446ae0547eda50d4d2f389209a56c = $(`<div id="html_c48446ae0547eda50d4d2f389209a56c" style="width: 100.0%; height: 100.0%;">Etablissement Hospitalier Specialise PSYCHIATRIQUE DRID HOCINE</div>`)[0];
+                popup_873c17822059b9ea31993cc679a2a413.setContent(html_c48446ae0547eda50d4d2f389209a56c);
+            
+        
+
+        marker_ac286e0596b158b1036fbb5ead6e3b49.bindPopup(popup_873c17822059b9ea31993cc679a2a413)
+        ;
+
+        
+    
+    
+            var marker_526ae9c425c6a3e87f1fe10e661fd69e = L.marker(
+                [36.73181977455254, 2.9990557109407305],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_61bb4194ead067565340a7cefa64cb3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_526ae9c425c6a3e87f1fe10e661fd69e.setIcon(icon_61bb4194ead067565340a7cefa64cb3d);
+        
+    
+        var popup_d782a25774edf108bf01479629a7ac67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb93d55a25f0b8e3fc5b47f0febb3512 = $(`<div id="html_eb93d55a25f0b8e3fc5b47f0febb3512" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite de DRARIA</div>`)[0];
+                popup_d782a25774edf108bf01479629a7ac67.setContent(html_eb93d55a25f0b8e3fc5b47f0febb3512);
+            
+        
+
+        marker_526ae9c425c6a3e87f1fe10e661fd69e.bindPopup(popup_d782a25774edf108bf01479629a7ac67)
+        ;
+
+        
+    
+    
+            var marker_e57da870a537aa661bc864dece71d5aa = L.marker(
+                [36.767321075660355, 3.0521513263032674],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_570b41cb0526e3a80593efb5fc03efa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e57da870a537aa661bc864dece71d5aa.setIcon(icon_570b41cb0526e3a80593efb5fc03efa2);
+        
+    
+        var popup_2161155a240b70b3cf8993d4a3d4c8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e928ded3f15b2073f87d7b03bc2424ee = $(`<div id="html_e928ded3f15b2073f87d7b03bc2424ee" style="width: 100.0%; height: 100.0%;">Etablissement Public de Sante de Proximite SIDI MeHAMED (BOUCHENAFA)</div>`)[0];
+                popup_2161155a240b70b3cf8993d4a3d4c8c9.setContent(html_e928ded3f15b2073f87d7b03bc2424ee);
+            
+        
+
+        marker_e57da870a537aa661bc864dece71d5aa.bindPopup(popup_2161155a240b70b3cf8993d4a3d4c8c9)
+        ;
+
+        
+    
+    
+            var marker_86c4049ec04d77768ea61e54ed312190 = L.marker(
+                [36.76, 3.05],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_bb4a44bb5618fb72b1864b52bee7905e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_86c4049ec04d77768ea61e54ed312190.setIcon(icon_bb4a44bb5618fb72b1864b52bee7905e);
+        
+    
+        var popup_60ae1e41a87a5cfe9c30f32007c4ad4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5df06cbf8b076c355a22a922b47b2c9d = $(`<div id="html_5df06cbf8b076c355a22a922b47b2c9d" style="width: 100.0%; height: 100.0%;">r1</div>`)[0];
+                popup_60ae1e41a87a5cfe9c30f32007c4ad4c.setContent(html_5df06cbf8b076c355a22a922b47b2c9d);
+            
+        
+
+        marker_86c4049ec04d77768ea61e54ed312190.bindPopup(popup_60ae1e41a87a5cfe9c30f32007c4ad4c)
+        ;
+
+        
+    
+    
+            var marker_6f2a333831d74f214fd63e4b7a7a3cb7 = L.marker(
+                [36.78, 3.04],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_ab2f6869ec0b98a52bcee6c676348d6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f2a333831d74f214fd63e4b7a7a3cb7.setIcon(icon_ab2f6869ec0b98a52bcee6c676348d6d);
+        
+    
+        var popup_529e95415e386566cfea26f5410f938a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62ab418cbf2ec5f809cab0a17c5570e8 = $(`<div id="html_62ab418cbf2ec5f809cab0a17c5570e8" style="width: 100.0%; height: 100.0%;">r2</div>`)[0];
+                popup_529e95415e386566cfea26f5410f938a.setContent(html_62ab418cbf2ec5f809cab0a17c5570e8);
+            
+        
+
+        marker_6f2a333831d74f214fd63e4b7a7a3cb7.bindPopup(popup_529e95415e386566cfea26f5410f938a)
+        ;
+
+        
+    
+    
+            var marker_69ed72ea0151e94060b6625730eac9c1 = L.marker(
+                [36.79, 3.03],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_e46ad3c5c8646bdc8009dd8e5ff585a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69ed72ea0151e94060b6625730eac9c1.setIcon(icon_e46ad3c5c8646bdc8009dd8e5ff585a8);
+        
+    
+        var popup_4ca58b9ae7b49741d874cda9e55743b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a902fa9d5a284625b461650266e47eb = $(`<div id="html_4a902fa9d5a284625b461650266e47eb" style="width: 100.0%; height: 100.0%;">r3</div>`)[0];
+                popup_4ca58b9ae7b49741d874cda9e55743b7.setContent(html_4a902fa9d5a284625b461650266e47eb);
+            
+        
+
+        marker_69ed72ea0151e94060b6625730eac9c1.bindPopup(popup_4ca58b9ae7b49741d874cda9e55743b7)
+        ;
+
+        
+    
+    
+            var marker_30e48cdf8bf40163b69c5af3f581e1a6 = L.marker(
+                [36.7, 2.98],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_8ee7f6e7a31cdc9ddb83dbcf23046ef6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30e48cdf8bf40163b69c5af3f581e1a6.setIcon(icon_8ee7f6e7a31cdc9ddb83dbcf23046ef6);
+        
+    
+        var popup_e34cce3a3c93c626c3d2bb1c54d06c7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65fb89c849912d3eca6cfd9a432b7560 = $(`<div id="html_65fb89c849912d3eca6cfd9a432b7560" style="width: 100.0%; height: 100.0%;">g8</div>`)[0];
+                popup_e34cce3a3c93c626c3d2bb1c54d06c7f.setContent(html_65fb89c849912d3eca6cfd9a432b7560);
+            
+        
+
+        marker_30e48cdf8bf40163b69c5af3f581e1a6.bindPopup(popup_e34cce3a3c93c626c3d2bb1c54d06c7f)
+        ;
+
+        
+    
+    
+            var marker_8849ba0d709f8754b520239274eef523 = L.marker(
+                [36.7, 2.98],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_30b0fc046f7999487d27d9efd20c5dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8849ba0d709f8754b520239274eef523.setIcon(icon_30b0fc046f7999487d27d9efd20c5dc9);
+        
+    
+        var popup_054de4a6b8cb939c0ff8736feb36418b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30ce4d9de74bfb63f64c7097be479a01 = $(`<div id="html_30ce4d9de74bfb63f64c7097be479a01" style="width: 100.0%; height: 100.0%;">g9</div>`)[0];
+                popup_054de4a6b8cb939c0ff8736feb36418b.setContent(html_30ce4d9de74bfb63f64c7097be479a01);
+            
+        
+
+        marker_8849ba0d709f8754b520239274eef523.bindPopup(popup_054de4a6b8cb939c0ff8736feb36418b)
+        ;
+
+        
+    
+    
+            var marker_67ba3d1037e50eb848ca2671928c357e = L.marker(
+                [36.74, 3.02],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_4b420758ba4f67d2c41bc1f2d7aad113 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67ba3d1037e50eb848ca2671928c357e.setIcon(icon_4b420758ba4f67d2c41bc1f2d7aad113);
+        
+    
+        var popup_9db17fe78e3ff4e7266b1b4c434bd932 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d108cbf25b665fbcf54b53b39418fe6 = $(`<div id="html_0d108cbf25b665fbcf54b53b39418fe6" style="width: 100.0%; height: 100.0%;">g1</div>`)[0];
+                popup_9db17fe78e3ff4e7266b1b4c434bd932.setContent(html_0d108cbf25b665fbcf54b53b39418fe6);
+            
+        
+
+        marker_67ba3d1037e50eb848ca2671928c357e.bindPopup(popup_9db17fe78e3ff4e7266b1b4c434bd932)
+        ;
+
+        
+    
+    
+            var marker_c74729c9278278f6b6945414b9a2d859 = L.marker(
+                [36.73, 3.01],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_5d596f5e13502de0640a7cee9522f2d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c74729c9278278f6b6945414b9a2d859.setIcon(icon_5d596f5e13502de0640a7cee9522f2d2);
+        
+    
+        var popup_2b6931f6754e3a162d357ff027ad51c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19cde8150571fbafb145a9dd72f1eb0e = $(`<div id="html_19cde8150571fbafb145a9dd72f1eb0e" style="width: 100.0%; height: 100.0%;">g2</div>`)[0];
+                popup_2b6931f6754e3a162d357ff027ad51c6.setContent(html_19cde8150571fbafb145a9dd72f1eb0e);
+            
+        
+
+        marker_c74729c9278278f6b6945414b9a2d859.bindPopup(popup_2b6931f6754e3a162d357ff027ad51c6)
+        ;
+
+        
+    
+    
+            var marker_cd23734ed986a56ef4076662a9cef237 = L.marker(
+                [36.75, 3.03],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_e71bc889dfcd2aca49aa4760c2849f25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd23734ed986a56ef4076662a9cef237.setIcon(icon_e71bc889dfcd2aca49aa4760c2849f25);
+        
+    
+        var popup_de86985b91bbff7047e85a91f3fa969d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28bfcfb9db8f117a1dd01ca07fdf8114 = $(`<div id="html_28bfcfb9db8f117a1dd01ca07fdf8114" style="width: 100.0%; height: 100.0%;">g3</div>`)[0];
+                popup_de86985b91bbff7047e85a91f3fa969d.setContent(html_28bfcfb9db8f117a1dd01ca07fdf8114);
+            
+        
+
+        marker_cd23734ed986a56ef4076662a9cef237.bindPopup(popup_de86985b91bbff7047e85a91f3fa969d)
+        ;
+
+        
+    
+    
+            var marker_31ef034d69aba7fb5673183cdf2b7a96 = L.marker(
+                [36.72, 3.0],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_415b35fffbc50ddb2285f8d1697450f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31ef034d69aba7fb5673183cdf2b7a96.setIcon(icon_415b35fffbc50ddb2285f8d1697450f1);
+        
+    
+        var popup_0080c135bb0ae5766b2cd0586b832e7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b69714ac669aefefda434bb2273fb49e = $(`<div id="html_b69714ac669aefefda434bb2273fb49e" style="width: 100.0%; height: 100.0%;">g4</div>`)[0];
+                popup_0080c135bb0ae5766b2cd0586b832e7d.setContent(html_b69714ac669aefefda434bb2273fb49e);
+            
+        
+
+        marker_31ef034d69aba7fb5673183cdf2b7a96.bindPopup(popup_0080c135bb0ae5766b2cd0586b832e7d)
+        ;
+
+        
+    
+    
+            var marker_378a488142254a5bd28d4d0322b9d4aa = L.marker(
+                [36.71, 2.99],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_61ee27fbe34524b29ab678a75fbd5ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_378a488142254a5bd28d4d0322b9d4aa.setIcon(icon_61ee27fbe34524b29ab678a75fbd5ae3);
+        
+    
+        var popup_561d246a1ece3de59b1d05ea05adab54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb5dae289a45435cba71fae35efc9cdc = $(`<div id="html_fb5dae289a45435cba71fae35efc9cdc" style="width: 100.0%; height: 100.0%;">r4</div>`)[0];
+                popup_561d246a1ece3de59b1d05ea05adab54.setContent(html_fb5dae289a45435cba71fae35efc9cdc);
+            
+        
+
+        marker_378a488142254a5bd28d4d0322b9d4aa.bindPopup(popup_561d246a1ece3de59b1d05ea05adab54)
+        ;
+
+        
+    
+    
+            var marker_ce23e8a48461adaeb8510e27bfd7bea4 = L.marker(
+                [36.7, 2.98],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_5766b3b61c0befdf3c80634787d92af7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce23e8a48461adaeb8510e27bfd7bea4.setIcon(icon_5766b3b61c0befdf3c80634787d92af7);
+        
+    
+        var popup_61e1bad4d41f63867c7f022224922104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b942af2093e9a851b38f165be319f549 = $(`<div id="html_b942af2093e9a851b38f165be319f549" style="width: 100.0%; height: 100.0%;">g6</div>`)[0];
+                popup_61e1bad4d41f63867c7f022224922104.setContent(html_b942af2093e9a851b38f165be319f549);
+            
+        
+
+        marker_ce23e8a48461adaeb8510e27bfd7bea4.bindPopup(popup_61e1bad4d41f63867c7f022224922104)
+        ;
+
+        
+    
+    
+            var marker_d8fdd2e4cc1cc77c6e4871c49313c4aa = L.marker(
+                [36.69, 2.97],
+                {}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var icon_029c804528a13ce88ac72cb32ecf21c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8fdd2e4cc1cc77c6e4871c49313c4aa.setIcon(icon_029c804528a13ce88ac72cb32ecf21c5);
+        
+    
+        var popup_11418875954f4037f18037527888e477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09021695ff372dc2fbf68fb2d9cebe5a = $(`<div id="html_09021695ff372dc2fbf68fb2d9cebe5a" style="width: 100.0%; height: 100.0%;">g7</div>`)[0];
+                popup_11418875954f4037f18037527888e477.setContent(html_09021695ff372dc2fbf68fb2d9cebe5a);
+            
+        
+
+        marker_d8fdd2e4cc1cc77c6e4871c49313c4aa.bindPopup(popup_11418875954f4037f18037527888e477)
+        ;
+
+        
+    
+    
+            var poly_line_b8b1bfb2f9ab7c0657151291d8f06f5a = L.polyline(
+                [[36.76202550605904, 3.056338988357211], [36.76, 3.05], [36.78923069967209, 3.049408272792376]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var poly_line_fbe8112b5b27e0e1330fd0f7148e4d23 = L.polyline(
+                [[36.78923069967209, 3.049408272792376], [36.73, 3.01], [36.72, 3.0], [36.71, 2.99], [36.76530090666471, 3.047691801847626]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var poly_line_b8e04c02dc39bcf34da9fbd40ffc7230 = L.polyline(
+                [[36.79493412764575, 3.0495627423292495], [36.79, 3.03], [36.709400522721715, 3.120935518494314]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var poly_line_290e11b981fafde1b5fc4eead7edc70d = L.polyline(
+                [[36.709400522721715, 3.120935518494314], [36.7, 2.98], [36.7, 2.98], [36.69, 2.97], [36.73181977455254, 2.9990557109407305]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var poly_line_20dce68d2d1c1629752f45f425e19640 = L.polyline(
+                [[36.72528868631248, 3.0205487539967493], [36.74, 3.02], [36.75, 3.03], [36.78, 3.04], [36.69787355685087, 2.8444583828108723]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+    
+            var poly_line_1b8c02128958fd7e393418cb4267b4fb = L.polyline(
+                [[36.69787355685087, 2.8444583828108723], [36.7, 2.98]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_622f67ea066c470571a8e6e83372045d);
+        
+</script>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>HealthCare</title>
+
+  <link rel="stylesheet" type="text/css" href="../static//css/bootstrap.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+
+  <link rel="stylesheet" type="text/css" href="../static/css/responsive.css" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <div class="title">HEALTHCARE</div>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+   <section class="slider_section">
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h1 class="bold">This is about efficiently directing ambulances</h1>
+                <h4 class="bold">to the best hospitals for patients ensuring saving their lives.</h4>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h1 class="bold">One of the foundational algorithms we use is Breadth-First Search (BFS)</h1>
+                <h4 class="bold">BFS explores all possible routes layer by layer, guaranteeing the shortest path in an unweighted graph.</h4>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h1 class="bold">To further refine the search, we employ Uniform Cost Search (UCS)</h1>
+                <h4 class="bold">UCS prioritizes routes based on cumulative cost, ensuring that the chosen path is the shortest in terms of distance and the most cost-effective.</h4>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h1 class="bold">We incorporate heuristic-based algorithms like Hill Climbing and A*</h1>
+                <h4 class="bold">By integrating these algorithms, our system ensures that ambulances are directed through the most efficient routes with real-time data.</h4>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+</div>
+<div class="center-container">
+  <a href="{{ url_for('you') }}" class="btn-1">Click</a>
+</div>
+
+
+  <!-- about section -->
+<section class="about_section layout_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="detail-box">
+          <div class="heading_container">
+            <h2>About Us</h2>
+          </div>
+          <div id="short-description">
+            <p>
+              Our work involves simulating the process of finding the optimal route to the nearest hospital. 
+            </p>
+            <a href="javascript:void(0);" onclick="showFullDescription()">Read More</a>
+          </div>
+          <div id="full-description" style="display: none;">
+            <p>
+              Our work involves simulating the process of finding the optimal route to the nearest hospital.  By leveraging advanced algorithms and geographical data, we meticulously analyze various factors such as distance, traffic patterns, and emergency service availability. This enables us to provide users with accurate and efficient directions to the nearest medical facility in times of need. Our solution aims to enhance accessibility to healthcare services and ultimately contribute to saving lives. Integrate our service into your website to offer visitors a valuable tool for navigating emergency situations with ease and confidence.
+            </p>
+            <a href="javascript:void(0);" onclick="hideFullDescription()">Read Less</a>
+          </div>
+        </div>
+      </div>
+      <!-- Close col-md-6 here -->
+
+      <!-- Add space between sections -->
+      <div class="col-md-6">
+        <div style="margin-bottom: 20px;"></div> 
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- client section -->
+<section class="client_section layout_padding-bottom">
+  <div class="container">
+    <div class="heading_container">
+      <h2>Team Members</h2>
+    </div>
+    <!-- Add your team member information here -->
+  </div>
+  
+  
+<div class="client_container layout_padding2">
+    <div class="client_box b-1">
+        <div class="client-id">
+            <div class="img-box">
+                <img src="../static/images/insaf.png" alt="" />
+            </div>
+            <div class="name">
+                <h5>Delenda Insaf</h5>
+                <p>Leader</p>
+            </div>
+        </div>
+        <div class="detail">
+            <!-- Add any additional details here -->
+        </div>
+    </div>
+
+    <div class="client_box b-1">
+        <div class="client-id">
+            <div class="img-box">
+                <img src="../static/images/firdaws.png" alt="" />
+            </div>
+            <div class="name">
+                <h5>Bessaid Firdaws</h5>
+                <p>Member</p>
+            </div>
+        </div>
+        <div class="detail">
+            <!-- Add any additional details here -->
+        </div>
+    </div>
+
+    <div class="client_box b-1">
+        <div class="client-id">
+            <div class="img-box">
+                <img src="../static/images/maram.png" alt="" />
+            </div>
+            <div class="name">
+                <h5>Latreche Dhikra </h5>
+                <h5>Maram</h5>
+                <p>Member</p>
+            </div>
+        </div>
+        <div class="detail">
+            <!-- Add any additional details here -->
+        </div>
+    </div>
+
+    <div class="client_box b-1">
+        <div class="client-id">
+            <div class="img-box">
+                <img src="../static/images/hana.png" alt="" />
+            </div>
+            <div class="name">
+                <h5>Saadi Hana</h5>
+                <p>Member</p>
+            </div>
+        </div>
+        <div class="detail">
+            <!-- Add any additional details here -->
+        </div>
+    </div>
+</div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+<!-- footer section -->
+<section class="container-fluid footer_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/in/insaf-del-18705a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+          <img src="../static/images/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+          Delanda Insaf
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/in/firdaws-bassaid-79770628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+          <img src="../static/images/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+          Firdawss Bessaid
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/in/dhikra-maram-latreche-650544308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+          <img src="../static/images/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+          Latreche Dhikra Maram
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/in/hana-saadi-12b004305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+          <img src="../static/images/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+          Saadi Hana
+        </a>
+      </div>
+    </div>
+    <div style="margin-bottom: 20px;"></div>
+
+  </div>
+
+</section>
+<!-- end footer section -->
+
+
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+  </script>
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        420: {
+          items: 2
+        },
+        1000: {
+          items: 5
+        }
+      }
+
+    });
+  </script>
+  <script>
+    var nav = $("#navbarSupportedContent");
+    var btn = $(".custom_menu-btn");
+    btn.click
+    btn.click(function (e) {
+
+      e.preventDefault();
+      nav.toggleClass("lg_nav-toggle");
+      document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
+    });
+  </script>
+  <script>
+    $('.carousel').on('slid.bs.carousel', function () {
+      $(".indicator-2 li").removeClass("active");
+      indicators = $(".carousel-indicators li.active").data("slide-to");
+      a = $(".indicator-2").find("[data-slide-to='" + indicators + "']").addClass("active");
+      console.log(indicators);
+
+    })
+  </script>
+  <script>
+    function showFullDescription() {
+      document.getElementById('short-description').style.display = 'none';
+      document.getElementById('full-description').style.display = 'block';
+    }
+  
+    function hideFullDescription() {
+      document.getElementById('short-description').style.display = 'block';
+      document.getElementById('full-description').style.display = 'none';
+    }
+  </script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
